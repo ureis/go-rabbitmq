@@ -1,0 +1,16 @@
+# Binários
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ferramentas e IDEs
+.vscode/
+.idea/
+.env
+
+# Docker
+.docker/

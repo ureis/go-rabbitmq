@@ -1,0 +1,6 @@
+services:
+    rabbitmq:
+        image: rabbitmq:4.0-management
+        ports:
+            - "5672:5672" # Porta do protocolo AMQP
+            - "15672:15672" # Porta da interface web do RabbitMQ(User:guest / Pass:guest)
